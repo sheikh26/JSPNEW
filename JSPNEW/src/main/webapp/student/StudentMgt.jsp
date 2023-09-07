@@ -1,9 +1,9 @@
 
-<%@page import="dto.StudentDTO"%>
+<%@page import="com.example.demo.dto.StudentDTO"%>
 <HTML>
 	<BODY>
 
-		<jsp:useBean id="std" class="dto.StudentDTO" scope="request"></jsp:useBean>
+		<jsp:useBean id="std" class="com.example.demo.dto.StudentDTO" scope="request"></jsp:useBean>
 
 		<%
 		    /*

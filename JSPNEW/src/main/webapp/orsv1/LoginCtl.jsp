@@ -1,4 +1,4 @@
-<%@page import="dto.MarksheetDTO,java.util.Vector"%>
+<%@page import="com.example.demo.dto.MarksheetDTO,java.util.Vector"%>
 
 
 <%

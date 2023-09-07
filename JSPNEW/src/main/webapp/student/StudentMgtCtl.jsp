@@ -1,8 +1,8 @@
-<%@page import="dto.StudentDTO"%>
+<%@page import="com.example.demo.dto.StudentDTO"%>
 <%@page import="services.StudentServices"%>
 
 <%
-	/*
+/*
 	 StudentDTO std = new StudentDTO();
 	 std.setRollNo(request.getPaparameter("rollNo"));
 	 std.setFirstName(request.getPaparameter("firstName"));
@@ -11,7 +11,7 @@
 	 */
 %>
 
-<jsp:useBean id="std" class="dto.StudentDTO" scope="request"></jsp:useBean>
+<jsp:useBean id="std" class="com.example.demo.dto.StudentDTO" scope="request"></jsp:useBean>
 
 <jsp:setProperty property="*" name="std" />
 

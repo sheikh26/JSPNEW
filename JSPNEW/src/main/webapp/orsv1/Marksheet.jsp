@@ -1,4 +1,4 @@
-<%@page import="dto.MarksheetDTO"%>
+<%@page import="com.example.demo.dto.MarksheetDTO"%>
 <%@page import="java.util.ArrayList"%>
 <html>
 	<body>
