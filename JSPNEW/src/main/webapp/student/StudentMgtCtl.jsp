@@ -4,10 +4,10 @@
 <%
 /*
 	 StudentDTO std = new StudentDTO();
-	 std.setRollNo(request.getPaparameter("rollNo"));
-	 std.setFirstName(request.getPaparameter("firstName"));
-	 std.setLastName(request.getPaparameter("lastName"));
-	 std.setSession(request.getPaparameter("session"));
+	 std.setRollNo(request.getParameter("rollNo"));
+	 std.setFirstName(request.getParameter("firstName"));
+	 std.setLastName(request.getParameter("lastName"));
+	 std.setSession(request.getParameter("session"));
 	 */
 %>
 
@@ -16,7 +16,7 @@
 <jsp:setProperty property="*" name="std" />
 
 <%
-	String op = request.getPaparameter("operation");
+	String op = request.getParameter("operation");
 
 	String message = null;
 

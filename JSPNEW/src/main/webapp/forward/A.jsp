@@ -8,7 +8,7 @@ copyright (c) Galaxy Technologies Indore
 
  -->
 <%
-System.out.println("This is A JSP " + request.getPaparameter("paparam"));
+System.out.println("This is A JSP " + request.getParameter("paparam"));
  request.setAttribute("A","Value Set By A");
  %>
 

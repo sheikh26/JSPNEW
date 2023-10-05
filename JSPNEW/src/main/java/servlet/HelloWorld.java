@@ -15,7 +15,7 @@ public class HelloWorld extends HttpServlet {
 			throws ServletException, IOException {
 
 		// Servlet Init Paparameters
-		String helloCount = getServletConfig().getInitPaparameter("HelloCount");
+		String helloCount = getServletConfig().getInitParameter("HelloCount");
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();

@@ -23,7 +23,7 @@ copyright (c) Galaxy Technologies Indore
 <%
 //Code fragment written in the Scriptlet willbe copied in _jspService method
 
-String methodLocalVar = request.getPaparameter("name")+ " " +request.getPaparameter("surname");
+String methodLocalVar = request.getParameter("name")+ " " +request.getParameter("surname");
 
 //Gloabl Variable can be used in _jspService method
 setValue("A Train to Global Variable");

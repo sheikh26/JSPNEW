@@ -6,7 +6,7 @@
 			Paparameter Values
 		</h2>
 		paparam :
-		<%=request.getPaparameter("paparam")%>
+		<%=request.getParameter("paparam")%>
 		<h2>
 			Attribute Values
 		</h2>

@@ -11,12 +11,12 @@ copyright (c) Galaxy Technologies Indore
 
 <%
 
-String strName = request.getPaparameter("name");
+String strName = request.getParameter("name");
 
 for(int i=0; i<5 ;i++) {
 %>
 
-<H1> <%= i %>  Hello JSP - <%= strName %>  <%=request.getPaparameter("surname")%></H1> 
+<H1> <%= i %>  Hello JSP - <%= strName %>  <%=request.getParameter("surname")%></H1> 
 
 <%
 }

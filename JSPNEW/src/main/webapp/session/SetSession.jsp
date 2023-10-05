@@ -15,8 +15,8 @@ copyright (c) Galaxy Technologies Indore
 		<H1>Set Session</H1>
 
 		<%
-			String k = request.getPaparameter("key");
-			String v = request.getPaparameter("value");
+			String k = request.getParameter("key");
+			String v = request.getParameter("value");
 
 			session.setAttribute(k, v);
 		%>

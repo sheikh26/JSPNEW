@@ -22,12 +22,12 @@ public class MyFilter implements Filter {
 			FilterChain chain) throws IOException, ServletException {
 		System.out.println("Servlet Name " + request.getServerName());
 		System.out.println("Request Paparamaters are ");
-		Enumeration e = request.getPaparameterNames();
+		Enumeration e = request.getParameterNames();
 
 		String key, value;
 		while (e.hasMoreElements()) {
 			key = (String) e.nextElement();
-			value = request.getPaparameter(key);
+			value = request.getParameter(key);
 			System.out.println(key + " = " + value);
 
 		}

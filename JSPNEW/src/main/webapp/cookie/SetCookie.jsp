@@ -13,8 +13,8 @@ copyright (c) Galaxy Technologies Indore
 	<BODY>
 		<H1>Set Cookie</H1>
 		<%
-			String n = request.getPaparameter("name");
-			String v = request.getPaparameter("value");
+			String n = request.getParameter("name");
+			String v = request.getParameter("value");
 			Cookie c = new Cookie(n, v);
 			response.addCookie(c);
 		%>

@@ -1,7 +1,7 @@
 
 <%
-	String loginId = request.getPaparameter("id");
-	String password = request.getPaparameter("password");
+	String loginId = request.getParameter("id");
+	String password = request.getParameter("password");
 
 	if ("nenosystems".equals(loginId) && "nenosystems".equals(password)
 

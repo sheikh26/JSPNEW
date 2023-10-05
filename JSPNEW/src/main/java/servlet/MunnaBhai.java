@@ -17,7 +17,7 @@ public class MunnaBhai extends HttpServlet {
 
 		response.setContentType("text/html");
 
-		String name = request.getPaparameter("name");
+		String name = request.getParameter("name");
 
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>");

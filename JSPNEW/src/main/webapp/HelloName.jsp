@@ -18,7 +18,7 @@ copyright (c) Galaxy Technologies Indore
 
 <%
 
-String strName = request.getPaparameter("fName") + " " + request.getPaparameter("lName") ;
+String strName = request.getParameter("fName") + " " + request.getParameter("lName") ;
 
 for(int i=0; i<5 ;i++) {
 %>

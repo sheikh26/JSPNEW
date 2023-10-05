@@ -2,7 +2,7 @@
 <%@page import="java.util.*"%>
 
 <%
-	String rollNo = request.getPaparameter("rollNo");
+	String rollNo = request.getParameter("rollNo");
 
 	//Make jdbc collection
 	if (!rollNo.equals("123")) {

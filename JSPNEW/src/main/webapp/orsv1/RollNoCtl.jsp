@@ -2,7 +2,7 @@
 
 
 <%
-	String rollNo = request.getPaparameter("rollNo");
+	String rollNo = request.getParameter("rollNo");
 
 	//Make jdbc collection
 	//dto = MarksheetService.get(rollNo);

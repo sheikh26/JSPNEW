@@ -19,7 +19,7 @@ public class RollnoCtl extends HttpServlet {
 		
 		System.out.println("Inside Servlet");
 
-		String rollNo = request.getPaparameter("rollNo");
+		String rollNo = request.getParameter("rollNo");
 
 		// Make jdbc collection
 		if (!rollNo.equals("123")) {

@@ -2,8 +2,8 @@
 
 
 <%
-	String id = request.getPaparameter("userId");
-	String pwd = request.getPaparameter("password");
+	String id = request.getParameter("userId");
+	String pwd = request.getParameter("password");
 
 	//Make jdbc collection
 

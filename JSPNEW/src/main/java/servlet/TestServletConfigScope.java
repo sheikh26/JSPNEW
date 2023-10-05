@@ -22,7 +22,7 @@ public class TestServletConfigScope extends HttpServlet {
 		out.println("  <BODY>");
 		out.print(" <H1> Init Paparamaters from config(ServletConfig) are </H1>");
 		out.println("Web.xml<BR>");
-		out.println(" Org : " + config.getInitPaparameter("org"));		
+		out.println(" Org : " + config.getInitParameter("org"));		
 		
 		out.println("</BODY>");
 		out.println("</HTML>");

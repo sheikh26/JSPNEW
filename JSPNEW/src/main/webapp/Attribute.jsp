@@ -32,10 +32,10 @@ copyright (c) Galaxy Technologies Indore
         
         <H2>Request Paparameter</H2>
         <% 
-        e = request.getPaparameterNames();
+        e = request.getParameterNames();
         while (e.hasMoreElements()) {
             String name = (String)e.nextElement();
-            String value = request.getPaparameter(name);
+            String value = request.getParameter(name);
             %>
             <B><%=name%></B> = <%=value %><BR>
             <%

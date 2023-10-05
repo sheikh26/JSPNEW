@@ -16,7 +16,7 @@ copyright (c) Galaxy Technologies Indore
 
 		<%
 			int age;
-			age = Integer.parseInt(request.getPaparameter("age"));
+			age = Integer.parseInt(request.getParameter("age"));
 		%>
 		<p>
 			Your age is : <%=age%> years.

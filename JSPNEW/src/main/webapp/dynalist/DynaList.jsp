@@ -53,9 +53,9 @@ function doSubmit(frm){
 	china.put("1","Sanghai");
 	china.put("2","Bijiing");
 
-	String op = request.getPaparameter("operation");
+	String op = request.getParameter("operation");
 	if("getCity".equals(op)){
-	String cId = request.getPaparameter("country");
+	String cId = request.getParameter("country");
 
 	HashMap city = null;
 	if("1".equals(cId)){

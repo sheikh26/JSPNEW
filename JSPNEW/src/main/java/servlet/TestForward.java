@@ -13,7 +13,7 @@ public class TestForward extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("This is B JSP " + request.getPaparameter("paparam"));
+		System.out.println("This is B JSP " + request.getParameter("paparam"));
 		request.setAttribute("B","Value Set By B  Servlet");
 		RequestDispatcher rd = request.getRequestDispatcher("/forward/C.jsp");
 		rd.forward(request, response);
